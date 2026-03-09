@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roast Campus Ambassador</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-target="ambassador">
+    <main class="container">
+        <header class="dept-header">
+            <a href="../index.html" class="back-btn" id="nav-back">← Back to Safety</a>
+            <h1 class="glitch" data-text="CAMPUS BACTERIA">CAMPUS BACTERIA</h1>
+            <p>Please register using my referral link bro, I get a free t-shirt bro.</p>
+        </header>
+
+        <section class="spice-selector">
+            <button class="spice-btn mild" data-level="mild">🌿 Mild</button>
+            <button class="spice-btn medium" data-level="medium">🔥 Medium</button>
+            <button class="spice-btn ghost" data-level="ghost">💀 Ghost Pepper</button>
+        </section>
+
+        <section class="roast-generator">
+            <div id="roastDisplay" class="roast-display">Select a spice level and click below...</div>
+            <button id="roastBtn" class="primary-btn">🔥 Roast The Bacteria 🔥</button>
+        </section>
+
+        <!-- The Comment Bramhand -->
+        <section class="comment-bramhand">
+            <h3>💬 Comment Bramhand</h3>
+            <div class="comments-list" id="commentsList">
+                <div class="comment-msg"><span class="user">@spam_blocker:</span> They put "Brand Ambassador at XYZ Coding Platform" in their Instagram bio. My eyes are bleeding.</div>
+            </div>
+            <div class="comment-input-area">
+                <input type="text" id="commentInput" placeholder="Drop your comment in the Bramhand..." autocomplete="off">
+                <button id="postCommentBtn">Post</button>
+            </div>
+        </section>
+    </main>
+    <script src="../js/main.js"></script>
+</body>
+</html>
